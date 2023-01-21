@@ -1,0 +1,37 @@
+
+.background-1{
+    /* Lebar Pembungkus */
+    width: 100px;
+    height: 100px;
+    /* Latar Warna */
+    background-color: blue;
+    /* Latar Gambar */
+    background-image: url("../img/Background-clouds.jpg");
+    /* Ukuran Latar */
+    background-size:cover;
+    
+    /* background-repeat: no-repeat;
+    background-position:; */
+}
+
+.background-2, .background-3,.background-4{
+    width: 250px;
+    height: 250px;
+    background-color: grey;
+}
+
+.paddingmargin-2{
+    background-color: yellow;
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+
+.background-3{
+    background-color: yellow;
+    /* margin-top:100px;
+    margin-left: 100px;
+    margin-bottom: 100px; */
+    margin: 100px 0px 100px 100px;
+    /* Atas, Kanan, Kiri, Bawah */
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title>Formulir With Grid System</title>
+</head>
+<body>
+    <div class="container-fluid d-flex justify-content-center">
+        <div class="card mt-3 rounded-0" style="width:1000px;">
+            <div class="card-header">
+                <h1>Formurlir Mahasiswa</h1>
+            </div>
+            <div class="card-body">
+                <!-- Baris Pertama -->
+                <div class="row my-2">
+                        <label class="col-2">Nama</label>
+                        <div class="col-10">
+                            <input type="text" class="form-control">
+                        </div>
+                </div>
+                <div class="row my-2">
+                        <label class="col-2">NIM</label>
+                        <div class="col-10">
+                            <input type="text" class="form-control">
+                        </div>
+                </div>
+                <div class="row my-2">
+                        <label class="col-2">Jurusan</label>
+                        <div class="col-10">
+                            <div class="form-check-inline col-2">
+                                <input type="radio" class="form-check-input me-2" name="jurusan">
+                                <label>IF-SI S1</label>
+                            </div>
+                            <div class="form-check-inline col-2">
+                                <input type="radio" class="form-check-input me-2" name="jurusan">
+                                <label>IF-SI D3</label>
+                            </div>
+                            <div class="form-check-inline col-2">
+                                <input type="radio" class="form-check-input me-2" name="jurusan">
+                                <label>KA-D3</label>
+                            </div>
+                        </div>
+                </div>
+                <div class="row my-2">
+                    <label class="col-2">Alamat</label>
+                    <div class="col-10">
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                </div>
+                <!-- Baris Kota, Kecamatan -->
+                <div class="row my-2">
+                    <div class="col-6">
+                        <div class="row">
+                            <label class="col-4">Kota</label>
+                            <div class="col-8">
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="row">
+                            <label class="col-4">Kecamatan</label>
+                            <div class="col-8">
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Baris Kelurahan -->
+                <div class="row my-2">
+                    <div class="col-6">
+                        <div class="row">
+                            <label class="col-4">Kelurahan</label>
+                            <div class="col-8">
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Email -->
+                <div class="row my-2">
+                    <label class="col-2">Email STMIK</label>
+                    <div class="col-10">
+                        <div class="input-group">
+                            <input type="text" class="form-control">
+                            <span class="input-group-text">@stmik-mi.ac.id</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card-footer d-flex justify-content-center">
+                <div class="row my-2">
+                    <div class="col-12">
+                        <button class="btn btn-primary m-1"><i class="bi bi-save"></i></button>
+                        <button class="btn btn-danger m-1"><i class="bi bi-x"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

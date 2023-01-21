@@ -1,0 +1,32 @@
+h1{
+    color: green;
+}
+h2{
+    color: purple;
+}
+
+.classCss{
+    color: yellow;
+    background-color: #b58912;
+}
+
+#idCss{
+    color: orange;
+}
+
+table, th, td{
+    border: 2px solid black;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tnama{
+    width: 200px;
+}
+
+.tnim{
+    width: 100px;
+}

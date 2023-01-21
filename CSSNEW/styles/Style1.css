@@ -1,0 +1,48 @@
+@font-face{
+    
+    font-family: 'Font Island'; /*Nama Font Kita*/
+    src:url("../fonts/IslandMoments-Regular.ttf") format('truetype')
+}
+
+body{
+    font-family: Arial;
+}
+
+p{
+    /* JENIS TULISAN/FONT */
+    font-family: 'Font Island';
+    /* Ukuran Tulisan */
+    font-size: 15px;
+}
+
+.paragraf-color{
+    /* FONT COLOR */
+    color: #6e8b3d;
+}
+
+.paragraf-weight{
+    /* Mengubah Ketebalan tulisan */
+    font-weight:bold;
+}
+
+.paragraf-style{
+    /* Mengubah Jenis / Gaya Tulisan */
+    font-style: italic;
+}
+
+.paragraf-align{
+    /* Align */
+    text-align: justify;
+    /* Spacing */
+    word-spacing:10px;
+    letter-spacing: 1px;
+    /* Jarak Antar Baris */
+    line-height: 50px;
+    /* Memberikan Jarak Pada Awal paragraf */
+    text-indent: 50px;
+}
+
+.paragraf-decoration{
+    text-decoration:none;
+    text-transform: uppercase;
+}
